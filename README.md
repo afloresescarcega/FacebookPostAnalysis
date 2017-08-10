@@ -7,6 +7,13 @@ A simple app that records information about the [UT LONGmemes for HORNSy teens](
 * Graph app needs access to [user_managed_groups](https://developers.facebook.com/docs/graph-api/reference/group/). Make sure your app has this permission. As of v2.10 of Graph API, will need app review.
 * An empty 'posts.json' to store the post id, user and time information. Auto-generating an empty 'posts.json' is on the TODO list
 
+### Installation
+* Make sure to have facepy isntalled. Preferably for python 3.
+* `pip install facepy`
+
+### Run
+* `python app.py`
+
 ## What does it do?
 * Simply records who posted what at what time. That's it. ¯\\_(ツ)_/¯ 
 * Print to console the url of a profile that is new to the json file, aka "the database". 
