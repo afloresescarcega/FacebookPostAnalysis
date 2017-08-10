@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 from facepy import GraphAPI
 from facepy import utils
@@ -11,7 +13,6 @@ def getInfo():
 
 # get app ID and app secret
 idAndSecret = getInfo(); # tuple (ID, secret)
-print idAndSecret
 
 # get access token (token, expiration)
 accessTokenInfo = utils.get_application_access_token(idAndSecret[0],idAndSecret[1])
@@ -65,7 +66,7 @@ for post in feedData:
     # check to see if user is in posts
     userId = post['from'] ['id']
     if userId not in posts: 
-        print "This person,", userId, "is not in the DB" 
+        print("This person, https://www.facebook.com/" + userId, "is not in the DB")
         # create a new user ID and a new post dictionary with dictionary time created time stamp with values zero reactions and zero comments
         posts[userId] =  {post['id'] : {post["created_time"] : [0,0]}}
         # add current timestamp and info on number of reactions and comments
