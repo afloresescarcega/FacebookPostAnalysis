@@ -10,9 +10,9 @@ A simple app that records information about the [UT LONGmemes for HORNSy teens](
 ## What does it do?
 * Simply records who posted what at what time. That's it. ¯\\_(ツ)_/¯ 
 * Print to console the url of a profile that is new to the json file, aka "the database". 
+* Auto-generate post.json if inexistent. 
 
 
 ## TO-DO
-* Auto-generate post.json if inexistent. 
 * Retroactively and from then on, include the name of a user and a url to their profile picture for later retrival.
-
+* Prune data when it gets really old to save on space and time reading and writing database
