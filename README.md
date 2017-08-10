@@ -8,7 +8,7 @@ A simple app that records information about the [UT LONGmemes for HORNSy teens](
 * An empty 'posts.json' to store the post id, user and time information. Auto-generating an empty 'posts.json' is on the TODO list
 
 ### Installation
-* Make sure to have facepy isntalled. Preferably for python 3.
+* Make sure to have [facepy](https://github.com/jgorset/facepy) isntalled. Preferably for python 3.
 * `pip install facepy`
 
 ### Run
