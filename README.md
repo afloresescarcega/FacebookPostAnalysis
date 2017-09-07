@@ -15,7 +15,7 @@ A simple app that records information about the [UT LONGmemes for HORNSy teens](
 * `python app.py`
 
 ## What does it do?
-* Simply records who posted what at what time. That's it. ¯\\_(ツ)_/¯ 
+* Simply records who posted what at what time. That's it. ¯\\__(ツ)__/¯ 
 * Print to console the url of a profile that is new to the json file, aka "the database". 
 * Auto-generate post.json if inexistent. 
 
